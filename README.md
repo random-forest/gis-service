@@ -1,5 +1,7 @@
 # gis-service
-
+Перед стартом нужно создать папку **data** с 2 директориями внутри:
+**hgt** (для высот) и **tiles** (туда складываються наши sqtiles)
+    
 ### GET /tiles/{map_style}/{z}/{x}/{y}
 **map_style** -> Имя папки в **root_dir/data/tiles**
 **z** -> зум (1 - 17) int
